@@ -6,20 +6,39 @@
     <title>Document</title>
   </head>
   <body>
-    <img
-      src="https://images.thepowermba.com/production/8826765b-c9f6-4867-9331-208bfb9a13ee.png"
-      alt="Portada del cómic Batman: The Dark Knight"
-      title="Batman: The Dark Knight, la primera entrega con Batman en la
-portada encima de una gárgola "
-    />
     <picture>
-      <source srcset="tatooine_small.jpg" media="(max-width: 480px)" />
-      <source srcset="tatooine_medium.jpg" media="(max-width: 1024px)" />
+      <source
+        srcset="
+          https://images.thepowermba.com/production/8826765b-c9f6-4867-9331-208bfb9a13ee.png
+        "
+        media="(max-width: 480px)"
+      />
+      <source
+        srcset="
+          https://images.thepowermba.com/production/8826765b-c9f6-4867-9331-208bfb9a13ee.png
+        "
+        media="(max-width: 1024px)"
+      />
       <img
-        src="tatooine_large.jpg"
-        alt="Planeta Tatooine de Star Wars"
+        src="https://images.thepowermba.com/production/8826765b-c9f6-4867-9331-208bfb9a13ee.png"
+        alt="Batman Dark Knight"
         sizes="(min-width: 1024px) 100vw, (min-width: 480px) 50vw, 33vw"
       />
     </picture>
+    <video controls muted poster="poster_de_matrix.jpg">
+      <source src="matrix_trailer.mp4" type="video/mp4" />
+    </video>
+    <audio controls>
+      <source src="banda_sonora_zelda.mp3" type="audio/mp3" />
+    </audio>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/DJ_wEoW8Qcg?si=t-_iRVXfH1cLP36R"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
   </body>
 </html>
