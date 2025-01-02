@@ -1,0 +1,23 @@
+#lorem {
+  border: 2px outset black;
+  position: relative;
+  top: 38px;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 0px 10px;
+  border-color: rgb(47, 45, 45);
+  border-style: outset;
+  background-color: rgb(133, 129, 129);
+  margin-left: 650px;
+  margin-top: 25px;
+}
+#tooltip > p {
+  color: white;
+}
+
+span {
+  font-style: italic;
+  color: blue;
+}
