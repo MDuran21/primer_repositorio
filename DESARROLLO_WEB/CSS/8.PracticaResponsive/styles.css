@@ -1,0 +1,22 @@
+#header {
+  background-color: rgb(46, 156, 246);
+  max-width: 80%;
+  margin: auto 20%;
+  height: 50px;
+}
+
+#page {
+  background-color: rgb(215, 59, 59);
+}
+
+#menu {
+  background-color: rgb(66, 210, 102);
+}
+
+#content {
+  background-color: rgb(140, 29, 219);
+}
+
+#footer {
+  background-color: rgb(216, 126, 17);
+}
